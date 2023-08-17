@@ -1,0 +1,6 @@
+favicon- https://cdn3d.iconscout.com/3d/premium/thumb/profile-5590850-4652486.png
+
+font- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+
+icons- https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css
+

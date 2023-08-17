@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: thistle;
+  color: white;
+}
+
+/* Main container styles */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* SECTION-1 styles */
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  background-color: black;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.container-1 {
+  flex: 1;
+  padding: 20px;
+}
+
+.container-1 h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.container-1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-2 {
+  flex: 1;
+  padding: 20px;
+}
+
+.container-2 h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.container-2 p {
+  font-size: 16px;
+}
+
+/* SECTION-2 styles */
+.section-2 {
+  text-align: center;
+}
+
+.container-3 {
+  padding: 30px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.container-3 h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icons a {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s ease-in-out;
+}
+
+.icons a:hover {
+  color: #8708fd; 
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .section-1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container-1,
+  .container-2 {
+    padding: 20px;
+  }
+}
