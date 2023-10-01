@@ -1,6 +1,8 @@
 # profile-card
 Its a responsive profile card made by using html and css 
 
+https://sampada-payal-portfolio-card.netlify.app/
+
 <br>
 
 ![Screenshot (11)](https://github.com/Sampada-Payal/profile-card/assets/140916008/078acaf2-f151-4d71-91fb-4791550c9d1f)
